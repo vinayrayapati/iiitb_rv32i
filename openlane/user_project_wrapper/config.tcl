@@ -39,17 +39,17 @@ set ::env(VERILOG_FILES) "\
 
 ## Clock configurations
 set ::env(CLOCK_PORT) "user_clock2"
-set ::env(CLOCK_NET) "mprj.clk"
+set ::env(CLOCK_NET) "iiitb_rv32i.clk"
 
 set ::env(CLOCK_PERIOD) "10"
 
 ## Internal Macros
 ### Macro PDN Connections
 set ::env(FP_PDN_MACRO_HOOKS) "\
-	mprj vccd1 vssd1 vccd1 vssd1"
+	iiitb_rv32i vccd1 vssd1 vccd1 vssd1"
 
 ### Macro Placement
-set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
+
 
 ### Black-box verilog and views
 set ::env(VERILOG_FILES_BLACKBOX) "\
@@ -57,8 +57,7 @@ set ::env(VERILOG_FILES_BLACKBOX) "\
 	$script_dir/../../verilog/rtl/iiitb_rv32i.v"
 
 set ::env(EXTRA_LEFS) "\
-	$script_dir/../../lef/iiitb_rv32i.lef \
-	$script_dir/../../lef/sky130_vsdinv.lef"
+	$script_dir/../../lef/iiitb_rv32i.lef"
 
 set ::env(EXTRA_GDS_FILES) "\
 	$script_dir/../../gds/iiitb_rv32i.gds"
@@ -72,18 +71,20 @@ set ::env(FP_PDN_CHECK_NODES) 0
 
 # The following is because there are no std cells in the example wrapper project.
 set ::env(SYNTH_TOP_LEVEL) 1
-set ::env(PL_RANDOM_GLB_PLACEMENT) 1
-
+set ::env(PL_RANDOM_GLB_PLACEMENT) 0
+set ::env(PL_TARGET_DENSITY) 1
 set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) 0
-set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) 0
+set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) 0.05
 set ::env(PL_RESIZER_BUFFER_INPUT_PORTS) 0
 set ::env(PL_RESIZER_BUFFER_OUTPUT_PORTS) 0
-
+set ::env(RT_RESIZER_TIMING_OPTIMIZATIONS) 1
 set ::env(FP_PDN_ENABLE_RAILS) 0
 
 set ::env(DIODE_INSERTION_STRATEGY) 0
 set ::env(FILL_INSERTION) 0
 set ::env(TAP_DECAP_INSERTION) 0
 set ::env(CLOCK_TREE_SYNTH) 0
+
+
 
 
