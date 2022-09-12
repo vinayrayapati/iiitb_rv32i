@@ -72,9 +72,8 @@ set ::env(FP_PDN_CHECK_NODES) 0
 # The following is because there are no std cells in the example wrapper project.
 set ::env(SYNTH_TOP_LEVEL) 1
 set ::env(PL_RANDOM_GLB_PLACEMENT) 0
-set ::env(PL_TARGET_DENSITY) 1
 set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) 0
-set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) 0.05
+set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) 0
 set ::env(PL_RESIZER_BUFFER_INPUT_PORTS) 0
 set ::env(PL_RESIZER_BUFFER_OUTPUT_PORTS) 0
 set ::env(RT_RESIZER_TIMING_OPTIMIZATIONS) 1
