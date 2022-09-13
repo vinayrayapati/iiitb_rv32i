@@ -449,7 +449,8 @@ Here we are going to customise our layout by including our custom made **sky130_
           
           <img width="550" alt="Screenshot 2022-09-13 at 4 33 22 PM" src="https://user-images.githubusercontent.com/110079631/189885516-dcedbe86-61d0-401a-aaf2-7d15c3cf2a9b.png">
 
-          <img width="578" alt="Screenshot 2022-09-13 at 4 33 42 PM" src="https://user-images.githubusercontent.com/110079631/189885587-e3eea87c-ecd1-4871-a774-93a8b1e91a8b.png">
+          <img width="579" alt="Screenshot 2022-09-13 at 4 37 24 PM" src="https://user-images.githubusercontent.com/110079631/189886031-ccabdac1-d645-49ed-955e-508bd1dd4897.png">
+
 
 
 
