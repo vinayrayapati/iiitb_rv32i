@@ -444,6 +444,13 @@ Here we are going to customise our layout by including our custom made **sky130_
       * **8. Post placement slack report:**
 
          ![slack_](https://user-images.githubusercontent.com/110079631/187498925-0801624a-c7d9-4e1a-aadc-bb026025a17a.png)
+         
+      * **9. Performance report:**
+          
+          <img width="550" alt="Screenshot 2022-09-13 at 4 33 22 PM" src="https://user-images.githubusercontent.com/110079631/189885516-dcedbe86-61d0-401a-aaf2-7d15c3cf2a9b.png">
+
+          <img width="578" alt="Screenshot 2022-09-13 at 4 33 42 PM" src="https://user-images.githubusercontent.com/110079631/189885587-e3eea87c-ecd1-4871-a774-93a8b1e91a8b.png">
+
 
 
   - ***7 . CLOCK TREE SYNTHESIS***
