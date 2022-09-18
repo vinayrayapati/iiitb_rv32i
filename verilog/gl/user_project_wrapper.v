@@ -54,7 +54,7 @@ module user_project_wrapper (user_clock2,
  input [3:0] wbs_sel_i;
 
 
-iiitb_rv32i mprj (.vccd1(vccd1),
+iiitb_rv32i iiitb_rv32i (.vccd1(vccd1),
     .vssd1(vssd1),
     .clk(wb_clk_i),
     .RN(wb_rst_i),
