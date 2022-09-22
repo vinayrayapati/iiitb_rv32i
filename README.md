@@ -445,11 +445,7 @@ Here we are going to customise our layout by including our custom made **sky130_
 
          ![slack_](https://user-images.githubusercontent.com/110079631/187498925-0801624a-c7d9-4e1a-aadc-bb026025a17a.png)
          
-      * **9. Performance report:**
-          
-          <img width="550" alt="Screenshot 2022-09-13 at 4 33 22 PM" src="https://user-images.githubusercontent.com/110079631/189885516-dcedbe86-61d0-401a-aaf2-7d15c3cf2a9b.png">
-
-          <img width="579" alt="Screenshot 2022-09-13 at 4 37 24 PM" src="https://user-images.githubusercontent.com/110079631/189886031-ccabdac1-d645-49ed-955e-508bd1dd4897.png">
+      * **9. 
 
 
 
@@ -475,6 +471,12 @@ Here we are going to customise our layout by including our custom made **sky130_
       * **5. Clock skew report post_cts:**
 
          <img width="518" alt="Screenshot 2022-08-30 at 10 36 14 PM" src="https://user-images.githubusercontent.com/110079631/187500933-8ed32076-aa28-416b-8e2f-a156f7bdfb4c.png">
+         
+         Performance report:**
+          
+          <img width="550" alt="Screenshot 2022-09-13 at 4 33 22 PM" src="https://user-images.githubusercontent.com/110079631/189885516-dcedbe86-61d0-401a-aaf2-7d15c3cf2a9b.png">
+
+          <img width="579" alt="Screenshot 2022-09-13 at 4 37 24 PM" src="https://user-images.githubusercontent.com/110079631/189886031-ccabdac1-d645-49ed-955e-508bd1dd4897.png">
 
     
   - ***8 . ROUTING***
