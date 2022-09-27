@@ -532,6 +532,42 @@ Here we are going to customise our layout by including our custom made **sky130_
 
           ![box_cmd](https://user-images.githubusercontent.com/110079631/187504758-263b0cd8-11a1-4fa4-9c86-9b941ef62c5e.png)
 
+### Parameters:-
+ - **Post-synthesis Gate count:-
+ 
+    <img width="491" alt="Screenshot 2022-09-27 at 10 00 54 PM" src="https://user-images.githubusercontent.com/110079631/192583415-591e5443-4148-4925-8ce5-087a1d98eba5.png">
+
+ - **Area using Box command:-
+ 
+   <img width="1238" alt="Screenshot 2022-09-27 at 10 01 39 PM" src="https://user-images.githubusercontent.com/110079631/192583670-1734092b-c94b-4d77-85f0-275f6d4562df.png">
+
+ - **Slack and performance using report_checks command:-
+ 
+   <img width="828" alt="Screenshot 2022-09-27 at 10 00 10 PM" src="https://user-images.githubusercontent.com/110079631/192584167-b5b78418-d93c-4e28-b030-fe4c21af9b0b.png">
+   
+   ```
+                                 1
+   Max Performance =  ------------------------
+                        clock period - slack
+   ```
+
+ - **flip-flop to standard cell ratio:-
+ 
+   <img width="491" alt="Screenshot 2022-09-27 at 10 00 30 PM" src="https://user-images.githubusercontent.com/110079631/192584409-bd01332e-7b5d-4560-a3f2-dd7b9f0b6d36.png">
+
+  
+        ```
+  
+        Flip-Flop ratio = Number of D Flip flops 
+                          ______________________
+                          Total Number of cells
+  
+        ```
+        
+ - **Total power report:-
+ 
+   <img width="502" alt="Screenshot 2022-09-27 at 10 01 14 PM" src="https://user-images.githubusercontent.com/110079631/192584558-5efc49e2-283a-44ae-8d9a-a27cf04bb2a1.png">
+
 
 ### Author
  - **Vinay Rayapati**
