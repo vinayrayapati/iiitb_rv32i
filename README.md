@@ -535,15 +535,18 @@ Here we are going to customise our layout by including our custom made **sky130_
 ### Parameters:-
  - **Post-synthesis Gate count:-**
  
-    <img width="491" alt="Screenshot 2022-09-27 at 10 00 54 PM" src="https://user-images.githubusercontent.com/110079631/192583415-591e5443-4148-4925-8ce5-087a1d98eba5.png">
+    <img width="552" alt="Screenshot 2022-09-27 at 10 38 22 PM" src="https://user-images.githubusercontent.com/110079631/192591779-9b9adbf5-7b66-4ee0-bb3d-d16047212d34.png">
+
 
  - **Area using Box command:-**
  
-   <img width="1238" alt="Screenshot 2022-09-27 at 10 01 39 PM" src="https://user-images.githubusercontent.com/110079631/192583670-1734092b-c94b-4d77-85f0-275f6d4562df.png">
+   <img width="1384" alt="Screenshot 2022-09-27 at 10 37 36 PM" src="https://user-images.githubusercontent.com/110079631/192591734-4dcf3bbd-6f50-4c96-8d12-47df454ae19c.png">
+
 
  - **Slack and performance using report_checks command:-**
  
-   <img width="828" alt="Screenshot 2022-09-27 at 10 00 10 PM" src="https://user-images.githubusercontent.com/110079631/192584167-b5b78418-d93c-4e28-b030-fe4c21af9b0b.png">
+   <img width="891" alt="Screenshot 2022-09-27 at 10 38 59 PM" src="https://user-images.githubusercontent.com/110079631/192591701-688d8563-bc8c-43bc-b026-bd5eb1e8acf9.png">
+
    
    ```
                                  1
@@ -553,7 +556,8 @@ Here we are going to customise our layout by including our custom made **sky130_
 
  - **flip-flop to standard cell ratio:-**
  
-   <img width="491" alt="Screenshot 2022-09-27 at 10 00 30 PM" src="https://user-images.githubusercontent.com/110079631/192584409-bd01332e-7b5d-4560-a3f2-dd7b9f0b6d36.png">
+   <img width="548" alt="Screenshot 2022-09-27 at 10 38 40 PM" src="https://user-images.githubusercontent.com/110079631/192591650-db436789-d7d3-41b0-ba5a-2d64fe73637a.png">
+
    
 ```
   
@@ -565,7 +569,8 @@ Here we are going to customise our layout by including our custom made **sky130_
         
  - **Total power report:-**
  
-   <img width="502" alt="Screenshot 2022-09-27 at 10 01 14 PM" src="https://user-images.githubusercontent.com/110079631/192584558-5efc49e2-283a-44ae-8d9a-a27cf04bb2a1.png">
+   <img width="562" alt="Screenshot 2022-09-27 at 10 38 03 PM" src="https://user-images.githubusercontent.com/110079631/192591595-1bccb271-899f-42e6-89a4-e7af87deadba.png">
+
 
 
 ### Author
